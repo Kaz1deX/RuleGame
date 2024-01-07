@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.rulegame.rule_screen.RuleScreen
+import com.example.rulegame.ui.theme.MyBlackGreen
 import com.example.rulegame.ui.theme.MyGreen
 import com.example.rulegame.ui.theme.RuleGameTheme
 
@@ -22,7 +23,7 @@ class MainActivity : ComponentActivity() {
             RuleGameTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MyGreen
+                    color = MyBlackGreen
                 ) {
                     RuleScreen()
                 }
